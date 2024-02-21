@@ -1,0 +1,8 @@
+Input                                          Process                                           Output
+-----------------------------------------------------------------------------------------------------------------
+- User choice for program (C, F, X)              - Check user's choice                              - Display colored banner
+                                                 - Execute corresponding function based on choice - Display welcome message
+                                                 - Display menu options                             - Perform temperature conversion
+                                                 - Prompt user for temperature                       - Display result
+                                                 - Check for valid choice                            - Display exit message
+                                                 - Prompt user to run another program               - Exit the program if requested
