@@ -1,17 +1,9 @@
 # Display ASCII BANNER
-Initialize colorama
-Initialize pyfiglet
 
 function print_colored_banner(text, color):
-    Print colored text using colorama
-
-fig = Create Figlet object
-
-banner_text = Render text using Figlet
-Print colored banner text
-
-# Display WELCOME message
-Print welcome message
+    Print colored text 
+    Print welcome message
+return
 
 # Function to convert Celsius to Fahrenheit
 function celsius_fahrenheit():
@@ -20,6 +12,7 @@ function celsius_fahrenheit():
         Convert Celsius to Fahrenheit using formula
         Print result
         Break out of the loop
+return
 
 # Function to convert Fahrenheit to Celsius
 function fahrenheit_celsius():
@@ -33,10 +26,10 @@ function fahrenheit_celsius():
 function exit():
     Print exit message
     Exit the program
+return
 
-# Main program
-if __name__ == '__main__':
-    program_function = Dictionary with program functions
+# Function to display menu
+    program_function = List with program functions
 
     while True:
         Print menu options
@@ -50,3 +43,4 @@ if __name__ == '__main__':
 
         Prompt user if they want to run another program
         If answer is not 'y', break out of the loop
+return
